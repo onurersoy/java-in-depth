@@ -15,6 +15,10 @@ public class Product3 {
         productName = "coffee"; //assignment statement (all good since it has been declared on method level)
         System.out.println(productName);
 
+        int productCount; //assignment statement (we could both declare and assign on method level as well)
+        productCount = 5;
+        System.out.println(productCount);
+
         supplierId = "supplier_name" //an int variable has been declared with a String value; it wouldn't work!
         System.out.println(supplierId);
     }

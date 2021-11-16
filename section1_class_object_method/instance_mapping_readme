@@ -13,4 +13,10 @@ Product2 :  Getting a default value if we declare a variable on class body
 Product3:   Using assignment statements (successful and errored examples)
             Getting an error because of assigning a variable with a different type of value
 
-Product4: Multi-variable declaration statements (declaring two variables in the same row)
+Product4:   Multi-variable declaration statements (declaring two variables in the same row)
+            Re-assigning a variable
+
+Product5:   Type casting (assigning variable or literal of one type to variable of another type)
+            Implicit casting (widening conversion)
+            Explicit casting (narrowing conversion)
+            Information loss in explicit casting (1.Truncation)
