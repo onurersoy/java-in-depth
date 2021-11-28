@@ -1,3 +1,5 @@
+package section3.part1.classes.methodBasics.objects;
+
 public class Product4 {
 
     //We can declare two variables in the same row
@@ -8,6 +10,9 @@ public class Product4 {
     int price1; //price1 gets integer's default value
     int price2 = price1 = 20; //price1 is re-assigned here; its value is '20' now, same as price2
 
-    int price4 = price3 = 20; //this instance would get a compilation error because price3 isn't declared
+    /* TO DO: Remove comment block for errored code!
+    int price4 = price3 = 20;
+    //This instance would get a compilation error because price3 isn't declared
+     */
 
 }

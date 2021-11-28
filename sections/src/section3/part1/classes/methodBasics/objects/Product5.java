@@ -1,3 +1,5 @@
+package section3.part1.classes.methodBasics.objects;
+
 public class Product5 {
 
     int x = 100;

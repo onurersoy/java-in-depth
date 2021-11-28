@@ -1,9 +1,14 @@
+package section3.part1.classes.methodBasics.objects;
+
 public class Product3 {
 
     int productId;
-    productId = 300; //assignment statement cannot appear at class body; it has to be in a method
+    /* TO DO: Remove comment block for errored code!
+    productId = 300;
+    */
+    //Assignment statement cannot appear at class body; it has to be in a method^^
 
-    //it might have been declared this way too^^:
+    //It might have been declared this way too^^:
     int nextProductId = 400;
 
     String productName;
@@ -19,8 +24,11 @@ public class Product3 {
         productCount = 5;
         System.out.println(productCount);
 
-        supplierId = "supplier_name" //an int variable has been declared with a String value; it wouldn't work!
+        /* TO DO: Remove comment block for errored code!
+        supplierId = "supplier_name"
+        //An int variable has been declared with a String value; it wouldn't work!^^
         System.out.println(supplierId);
+        */
     }
 
 }

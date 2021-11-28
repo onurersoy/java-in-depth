@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java-in-depth.iml" filepath="$PROJECT_DIR$/.idea/java-in-depth.iml" />
-      <module fileurl="file://$PROJECT_DIR$/section1_class_object_method/section1_class_object_method.iml" filepath="$PROJECT_DIR$/section1_class_object_method/section1_class_object_method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sections/sections.iml" filepath="$PROJECT_DIR$/sections/sections.iml" />
     </modules>
   </component>
 </project>

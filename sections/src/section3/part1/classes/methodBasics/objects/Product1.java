@@ -1,3 +1,5 @@
+package section3.part1.classes.methodBasics.objects;
+
 public class Product1 {
 
     int productId = 100; //declaration statement (literal)
@@ -6,7 +8,7 @@ public class Product1 {
     int newProductId = productId + 1; //declaration statement (expression)
 
     long supplierPhoneNumber = 555_444_33_22L;
-    //you can use underscore to make a numeric value more readable; it would still be printed as a normal value
+    //You can use underscore to make a numeric value more readable; it would still be printed as a normal value
 
     void pasteConsole() {
         System.out.println(productId);
