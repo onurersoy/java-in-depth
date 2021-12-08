@@ -63,5 +63,4 @@ public class Student4 {
         System.out.println("Student 3: " + students[2].name);
         System.out.println("Student 4: " + students[3].name);
     }
-
 }

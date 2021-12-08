@@ -18,5 +18,4 @@ public class Student1 {
         System.out.println("Student ID #3: " + studentIds[2]);
         System.out.println("Student ID #4: " + studentIds[3]);
         }
-
 }

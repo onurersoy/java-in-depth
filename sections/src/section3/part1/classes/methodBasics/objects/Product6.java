@@ -16,5 +16,4 @@ public class Product6 {
         product6.supplierId = 100;
         product6.pasteConsole();
     }
-
 }

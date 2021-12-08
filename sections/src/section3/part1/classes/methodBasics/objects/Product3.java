@@ -30,5 +30,4 @@ public class Product3 {
         System.out.println(supplierId);
         */
     }
-
 }

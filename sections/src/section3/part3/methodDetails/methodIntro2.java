@@ -22,5 +22,4 @@ public class methodIntro2 {
         //This one is also okay since 'double > float' and we can assign float type of values on a double variable^^
         System.out.println(d);
     }
-
 }

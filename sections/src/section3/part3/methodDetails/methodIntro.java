@@ -25,5 +25,4 @@ public class methodIntro {
         double d = sum(3.0, 2.0);
         System.out.println(d);
     }
-
 }

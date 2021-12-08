@@ -28,5 +28,4 @@ public class Product2 {
         Product2 p = new Product2();
         p.pasteConsole();
     }
-
 }

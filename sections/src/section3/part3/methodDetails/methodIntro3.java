@@ -14,5 +14,4 @@ public class methodIntro3 {
         float d = (float) sum(3.0f, (float) 2.0);
         System.out.println(d);
     }
-
 }
