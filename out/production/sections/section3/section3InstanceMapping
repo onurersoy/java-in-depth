@@ -1,5 +1,5 @@
-README (INSTANCE MAPPING):
-> This text file contains the mapping of class instances of sections.
+README.INSTANCE_MAPPING:
+> This text file contains the mapping of class instances of section 3.
 
 ===============================================================================================
 
@@ -48,6 +48,8 @@ myArray :  2D Arrays
 
 myArray3D :  3D Arrays
 
+MoneyTransferService:  Assignment#3
+
 ===============================================================================================
 
 part3.methodDetails ::
@@ -60,3 +62,45 @@ methodIntro2 :  Errored & corrected instances
 
 methodIntro3 :  Errored & corrected instances
                 Using type cast on methods
+
+CurrencyConverter2 :  Assignment#2.refactoring1
+                      Using "new" in an assignment statement to manipulate the state of the same object reference by using an instance method
+                      Method examples
+
+methodIntro4:  "How Data Is Passed To Methods In Java"
+
+===============================================================================================
+
+part4.constructors ::
+
+Person:  Creating a constructor
+
+Person1:  Details regarding compilation if there is no constructor
+
+Person2:  Constructors in details
+
+Person3:  Creating a non-args constructor
+
+Person4:  Using a constructor with multiple variables and refactoring part
+
+Person5:  Using a constructor with a method and refactoring part
+
+Person6:  Removing the method by putting its business logic into the constructor (check "Person5")
+
+Person7:  Overloading constructors
+
+Person8:  Using 'this' for overloading constructors
+
+Person 9:  An alternative way of doing 'Person8'
+
+Person 10:  Usage of 'this' reference
+            Refactoring 'Person8' by using 'this' reference
+
+Object:  Reinitializing Object References
+         Practice
+
+Instructor:  Coding Exercise 1(Section 3.54) - Arrays with Object References
+
+Book:  The class is needed for the exercise above (Exercise 1 - Section 3.54 - Arrays with Object References)
+
+===============================================================================================
