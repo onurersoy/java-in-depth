@@ -1,6 +1,7 @@
 package section3.part4.constructors;
 
 public class Instructor {
+        //Coding Exercise #1
 
         public long id;
         public String name;
@@ -56,10 +57,11 @@ public class Instructor {
             return mostRecentBookTitle;
         }
 
-        //TODO
+        //This method updates the title and returns the previous instance:
         public Book updateBook(int index, String title) {
-            Book newBook = new Book(books[index].setTitle(title));
-            return newBook;
+            Book originalOldBook = new Book(books[index].getTitle());
+            books[index].setTitle(title);
+            return originalOldBook;
         }
 
         /*Undesired solution:
@@ -85,11 +87,11 @@ public class Instructor {
             return oldBook;
         }*/
 
-        //TODO
+        //This method updates the instance and returns the previous instance:
         public Book updateBook(int index, Book book) {
-            Book newBook = books[index];
+            Book oldBook = books[index];
             books[index] = book;
-            return newBook;
+            return oldBook;
         }
 
         public static void main(String[] args) {
@@ -99,10 +101,9 @@ public class Instructor {
 
             Instructor instructor = new Instructor(101, "John", "Assistant Professor", "Computer Science", new Book[]{book1, book2, book3});
             System.out.println(instructor.getMostRecentBookTitle());
-            System.out.println("old book title: " + instructor.updateBook(1, "Effective C#").getTitle());
+            System.out.println("old book title before update: " + instructor.updateBook(1, "Effective C#").getTitle());
 
-            //TODO: ask it!
             Book book4 = new Book("Introduction to Data Mining");
-            System.out.println("old book title: " + instructor.updateBook(1, book4).getTitle());
+            System.out.println("previously updated book title: " + instructor.updateBook(1, book4).getTitle());
         }
-    }
+}

@@ -29,7 +29,6 @@ public class myArray {
             {6,13}
     };
 
-
     /*
     Length in arrays:
     myArray.length; = 4 (number of rows)
