@@ -3,6 +3,7 @@ package section4.part1.operators.control.flows;
 import java.util.Arrays;
 
 public class StudentUtil {
+    //Coding Exercise 1 - Section 3.54
 
     public static double[] calculateGPA(int[] studentIdList, char[][] studentsGrades) {
         double[] gpaValues = new double[studentIdList.length];
@@ -21,10 +22,8 @@ public class StudentUtil {
                     sum += 2;
                     //studentsGrades[i][j] = 2;
                 }
-                //System.out.println("\nStudent ID: " + studentIdList[i] + " & Student Sum of Grades After Each Exam: " + sum);
             }
             //sum = sum + studentsGrades[i][j];
-            //System.out.println("\nStudent ID: " + studentIdList[i] + " & Student Total Sum of Grades: " + sum);
             gpa = sum / studentsGrades[i].length;
             System.out.println("Student ID: " + studentIdList[i] + " & Student GPA: " + gpa);
             gpaValues[i] = gpa;
@@ -47,11 +46,15 @@ public class StudentUtil {
                 index++;
             } else {
                 exceptionalGPA += 1;
-                //TODO: ASK IT!!!
             }
         }
-        System.out.println("Successfull Students By Id: " + (Arrays.toString(studentsByGPA)));
-        return studentsByGPA;
+        int realGPAArraySize = studentIdList.length - exceptionalGPA;
+        int[] studentsByGPANew = new int[realGPAArraySize];
+        for (int i = 0; i < realGPAArraySize; i++) {
+            studentsByGPANew[i] = studentsByGPA[i];
+        }
+        System.out.println("Successfull Students By Id: " + (Arrays.toString(studentsByGPANew)));
+        return studentsByGPANew;
 
         // invoke calculateGPA
         // construct the result array and return it. You would need an extra for loop to compute the size of the resulting array
